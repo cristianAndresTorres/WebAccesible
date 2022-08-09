@@ -156,8 +156,10 @@
 
                                 <!---->
                                 <div hidden>
-                                    <audio id="mireproductor" src="multimedia/ForzaMotorsportAudio.mp3" controls> este es un elemento de audio no soportado por tu navegador, prueba con otro </audio>
-                                    <track src="multimedia/Forza_Motorsport_descripcion.vtt" kind="subtitles" srclang="es" label="Sub_Español">
+                                    <audio id="mireproductor"  controls>
+                                        <source type="audio/mpeg" src="multimedia/ForzaMotorsportAudio.mp3"/>
+                                        <p>Este es un elemento de audio no soportado por tu navegador, prueba con otro</p>
+                                    </audio>
                                 </div>
 
                                 <!--Video con audio descriptivo-->
@@ -167,7 +169,7 @@
                                             <div class="banner-img">
                                                 <video id="video" controls>
                                                     <source type="video/mp4" src="multimedia/Forza _Motorsport_video.mp4">
-                                                    <track src="multimedia/Forza_Motorsport_descripcion.vtt" kind="subtitles" srclang="es" label="Sub_Español">
+                                                    <track src="multimedia/Forza_Motorsport_descripcion.vtt" kind="subtitles" srclang="es" label="SubEspañol">
                                                     <p>Su navegador no soporta video HTML5</p>
                                                 </video>
                                             </div><!-- end banner-img -->
